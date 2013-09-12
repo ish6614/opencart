@@ -93,7 +93,7 @@
       </div>
       <div class="product-items layout-row-<?php echo $cols; ?> product-grid">
         <?php foreach ($products as $product) { ?>
-        <div class="span3">
+        <div class="col-sm-3">
           <div class="product-thumb transition">
             <?php if ($product['thumb']) { ?>
             <div class="image"> <a href="<?php echo $product['href']; ?>"> <img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" /> </a> </div>
